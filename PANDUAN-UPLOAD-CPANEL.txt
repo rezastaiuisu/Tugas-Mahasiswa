@@ -1,0 +1,28 @@
+========================================================================
+PANDUAN LENGKAP UPLOAD KE CPANEL (FILE MANAGER) - 1 KALI UPLOAD & EXTRACT
+========================================================================
+
+File ZIP ini berisi seluruh file siap pakai untuk website perkuliahan Bapak:
+- index.html (Halaman utama)
+- assets/ (CSS dan Javascript aplikasi)
+- portal-config.json (Konfigurasi dosen, webhook, dan Google Drive)
+- .htaccess (Konfigurasi server Apache cPanel agar routing lancar)
+
+------------------------------------------------------------------------
+LANGKAH MEMASANG DI CPANEL:
+------------------------------------------------------------------------
+1. Buka cPanel hosting Bapak (misal: rezalubis.com/cpanel).
+2. Masuk ke menu "File Manager".
+3. Masuk ke folder "public_html".
+4. (Opsional) Jika ingin website berada di subfolder (misal: rezalubis.com/penugasan-mahasiswa):
+   - Klik "+ Folder" di pojok kiri atas cPanel.
+   - Beri nama folder: penugasan-mahasiswa
+   - Buka folder "penugasan-mahasiswa" tersebut.
+   (Jika ingin tampil langsung di domain utama rezalubis.com, tetap di folder public_html).
+5. Klik tombol "Upload" di menu atas cPanel File Manager.
+6. Pilih file zip ini (cpanel-siap-pakai.zip). Tunggu sampai progress upload bar berwarna hijau 100%.
+7. Kembali ke File Manager, klik kanan pada file "cpanel-siap-pakai.zip" yang baru diupload.
+8. Pilih "Extract" (Ekstrak).
+9. Selesai! File index.html, assets/, portal-config.json, dan .htaccess sudah langsung aktif.
+10. Buka browser dan buka: https://rezalubis.com/penugasan-mahasiswa/ (atau domain Bapak).
+========================================================================
